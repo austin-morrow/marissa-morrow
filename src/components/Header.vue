@@ -1,7 +1,7 @@
 <template>
-  <header class="bg-white">
+  <header class="bg-[#F2F1EC]">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-      <div class="flex lg:flex-1">
+      <div class="flex lg:flex-1 text-2xl">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
           <div>Marissa Morrow</div>
@@ -9,7 +9,7 @@
       </div>
       <PopoverGroup class="flex flex-1 justify-end">
         <Popover class="relative">
-          <PopoverButton class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+          <PopoverButton class="flex items-center gap-x-1 text-2xl leading-6 text-gray-900">
             Menu
           </PopoverButton>
 
@@ -39,26 +39,11 @@
 <script setup>
 import { ref } from 'vue'
 import {
-  Dialog,
-  DialogPanel,
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
   Popover,
   PopoverButton,
   PopoverGroup,
   PopoverPanel,
 } from '@headlessui/vue'
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from '@heroicons/vue/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/solid'
 
 const products = [
   { name: 'Home', href: '#' },
