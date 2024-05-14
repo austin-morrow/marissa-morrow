@@ -18,7 +18,7 @@
         <div class="text-center lg:text-left lg:flex-grow">
           <div class="px-4 lg:px-0">
             <div
-              class="text-balance text-xl font-semibold tracking-tight text-neutral-800 md:text-2xl lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight"
+              class="text-balance text-xl font-serif tracking-tight text-neutral-800 md:text-2xl lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight"
             >
               <h2>
                 Crafting narratives in every frame, I am a visual storyteller
@@ -44,7 +44,7 @@
         </div>
         <div class="sm:order-1">
           <h2
-            class="text-balance text-xl font-semibold tracking-tight text-neutral-800 md:text-2xl lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight"
+            class="text-balance text-xl font-serif tracking-tight text-neutral-800 md:text-2xl lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight"
           >
             Life insurance is really doin’ exactly what you like And love ‘cause
             that’s that shit that keep the fire lightin’ up Get out the dark and
@@ -56,24 +56,23 @@
 
     <div class="container mx-auto py-16">
       <div class="grid gap-8 sm:grid-cols-2 sm:items-center">
-        <div class="flex justify-center sm:order-2">
-          <div>
-            <img
-              src="../assets/images/IMG_2873.jpg"
-              alt="Image"
-              class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
-            />
-          </div>
-        </div>
+    <div class="flex justify-center sm:order-1">
+        <img
+        src="../assets/images/IMG_2873.jpg"
+        alt="Image"
+        class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
+      />
+    </div>
 
-        <div class="flex justify-center">
-          <img
-            src="../assets/images/IMG_6877.jpg"
-            alt="Image"
-            class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
-          />
-        </div>
-      </div>
+    <div class="flex justify-center sm:order-2">
+      <img
+          src="../assets/images/IMG_6877.jpg"
+          alt="Image"
+          class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
+        />
+    </div>
+</div>
+
       <div>
         <div>Work</div>
       </div>
