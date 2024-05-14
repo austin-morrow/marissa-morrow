@@ -46,10 +46,10 @@ import {
 } from '@headlessui/vue'
 
 const products = [
-  { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Work', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Work', href: '/work' },
+  { name: 'Contact', href: '/contact' },
 ]
 
 const mobileMenuOpen = ref(false)

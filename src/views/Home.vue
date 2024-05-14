@@ -1,23 +1,81 @@
 <template>
-  <div class="relative isolate overflow-hidden bg-[#F2F1EC] px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+  <div
+    class="relative isolate overflow-hidden bg-[#F2F1EC] px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
+  >
     <div
-      class="mx-auto flex flex-col items-center content-center lg:grid max-w-7xl grid-cols-2 gap-x-16 gap-y-16 lg:mx-0 lg:max-w-none lg:gap-y-10">
+      class="mx-auto flex flex-col items-center content-center lg:grid max-w-7xl grid-cols-2 gap-x-16 gap-y-16 lg:mx-0 lg:max-w-none lg:gap-y-10"
+    >
       <div class="lg:sticky lg:top-4 lg:col-start-1 flex justify-center">
-        <img class="w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10"
-          src="../assets/images/hero_img.png" alt="" />
+        <img
+          class="w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10"
+          src="../assets/images/hero_img.png"
+          alt=""
+        />
       </div>
-      <div class="lg:col-start-2 lg:flex lg:flex-col lg:justify-center lg:text-left items-center lg:items-start">
+      <div
+        class="lg:col-start-2 lg:flex lg:flex-col lg:justify-center lg:text-left items-center lg:items-start"
+      >
         <div class="text-center lg:text-left lg:flex-grow">
           <div class="px-4 lg:px-0">
-            <div class="max-w-xl leading-7 text-gray-700 text-2xl lg:max-w-lg">
-              <p>
+            <div
+              class="text-balance text-xl font-semibold tracking-tight text-neutral-800 md:text-2xl lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight"
+            >
+              <h2>
                 Crafting narratives in every frame, I am a visual storyteller
                 and photographer, capturing the essence of life's stories
                 through my lens.
-              </p>
+              </h2>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="container mx-auto py-16">
+      <div class="grid gap-8 sm:grid-cols-2 sm:items-center">
+        <div class="sm:order-2">
+          <div class="relative rounded-lg pt-[50%] sm:pt-[100%]">
+            <img
+              src="../assets/images/image_2.JPG"
+              alt="Image"
+              class="absolute start-0 top-0 size-full rounded-xl object-cover"
+            />
+          </div>
+        </div>
+        <div class="sm:order-1">
+          <h2
+            class="text-balance text-xl font-semibold tracking-tight text-neutral-800 md:text-2xl lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight"
+          >
+            Life insurance is really doin’ exactly what you like And love ‘cause
+            that’s that shit that keep the fire lightin’ up Get out the dark and
+            spark, yeah Gon’ head, lighten up || Smino
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mx-auto py-16">
+      <div class="grid gap-8 sm:grid-cols-2 sm:items-center">
+        <div class="flex justify-center sm:order-2">
+          <div>
+            <img
+              src="../assets/images/IMG_2873.jpg"
+              alt="Image"
+              class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
+            />
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <img
+            src="../assets/images/IMG_6877.jpg"
+            alt="Image"
+            class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
+          />
+        </div>
+      </div>
+      <div>
+        <div>Work</div>
       </div>
     </div>
   </div>
