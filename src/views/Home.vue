@@ -56,22 +56,22 @@
 
     <div class="container mx-auto py-16">
       <div class="grid gap-8 sm:grid-cols-2 sm:items-center">
-    <div class="flex justify-center sm:order-1">
-        <img
-        src="../assets/images/IMG_2873.jpg"
-        alt="Image"
-        class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
-      />
-    </div>
+        <div class="flex justify-center sm:order-1">
+          <img
+            src="../assets/images/IMG_2873.jpg"
+            alt="Image"
+            class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
+          />
+        </div>
 
-    <div class="flex justify-center sm:order-2">
-      <img
-          src="../assets/images/IMG_6877.jpg"
-          alt="Image"
-          class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
-        />
-    </div>
-</div>
+        <div class="flex justify-center sm:order-2">
+          <img
+            src="../assets/images/IMG_6877.jpg"
+            alt="Image"
+            class="w-full h-auto max-w-full lg:max-w-96 lg:h-auto"
+          />
+        </div>
+      </div>
 
       <div>
         <div>Work</div>
