@@ -48,7 +48,7 @@ import {
 const products = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Work', href: '/work' },
+  { name: 'Works', href: '/works' },
   { name: 'Contact', href: '/contact' },
 ]
 
