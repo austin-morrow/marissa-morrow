@@ -6,7 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      
+      fontFamily: {
+        'kaisei-decol': ['"Kaisei Decol"', "sarif"]
+      }
     },
   },
   plugins: [],

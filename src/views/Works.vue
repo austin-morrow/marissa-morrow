@@ -1,16 +1,15 @@
 <template>
   <div class="p-5 md:p-10 bg-[#F2F1EC]">
-    <div class="mb-5 flex justify-center">
+    <div class="mb-5 flex justify-center font-kaisei-decol">
       <template v-for="(category, index) in categories" :key="index">
         <div
-          class="text-lg font-semibold cursor-pointer"
-          :class="{ 'text-blue-700': selectedCategory === category }"
+          class="text-lg font-semibold cursor-pointer py-20 px-4 "
+          :class="{ 'text-[#52492D]': selectedCategory === category }"
           @click="selectedCategory = category"
         >
           {{ category }}
         </div>
-        <!-- Add the separator "|" if the category is not the last one -->
-        <span v-if="index !== categories.length - 1" class="mx-2">|</span>
+        <span v-if="index !== categories.length - 1" class="mx-2 py-20 ">|</span>
       </template>
     </div>
 
