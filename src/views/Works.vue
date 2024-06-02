@@ -5,7 +5,7 @@
         <div
           class="text-lg font-semibold cursor-pointer py-20 px-4 "
           :class="{ 'text-[#52492D]': selectedCategory === category }"
-          @click="selectedCategory = category"
+          @click="selectCategory(category)"
         >
           {{ category }}
         </div>
@@ -72,6 +72,24 @@ export default {
       return ['All', 'Concerts', 'Portraits'];
     }
   },
+  methods: {
+    selectCategory(category) {
+      this.selectedCategory = category;
+      this.updateURL(category);
+    },
+    updateURL(category) {
+      const params = new URLSearchParams(window.location.search);
+      params.set('category', category);
+      window.history.replaceState({}, '', `${window.location.pathname}?${params}`);
+    }
+  },
+  mounted() {
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get('category');
+    if (category && this.categories.includes(category)) {
+      this.selectedCategory = category;
+    }
+  }
 };
 </script>
 
