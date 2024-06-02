@@ -42,11 +42,12 @@ export default {
           links: [
             { text: "Home", url: "/" },
             { text: "About", url: "/about" },
+            { text: "Works", url: "/works" },
           ],
         },
         {
           links: [
-            { text: "Works", url: "/works" },
+            { text: "Pricing", url: "/pricing" },
             { text: "Contact", url: "/contact" },
           ],
         },
