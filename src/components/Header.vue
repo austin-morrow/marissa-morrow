@@ -1,10 +1,10 @@
 <template>
   <div class="bg-[#F2F1EC]">
-    <header class="inset-x-0 top-0 z-50 pt-2">
+    <header class="header inset-x-0 top-0 z-50 pt-2">
       <nav
         class="container mx-auto flex items-center justify-between p-6 lg:px-8" aria-label="Global"
       >
-        <div class="flex lg:flex-1 text-2xl">
+        <div class="flex lg:flex-1 text-3xl">
           <a href="/" class="-m-1.5 p-1.5 font-kaisei-decol">
             <span class="sr-only">Your Company</span>
             <div>Marissa Morrow</div>
@@ -18,7 +18,7 @@
           >
             <span class="sr-only">Open main menu</span>
             <div
-              class="popover-button-double-underline flex items-center gap-x-1 text-xl leading-6 text-gray-900 font-kaisei-decol"
+              class="popover-button-double-underline flex items-center gap-x-1 text-2xl leading-6 text-gray-900 font-kaisei-decol"
             >
               Menu
             </div>
@@ -26,9 +26,9 @@
         </div>
       </nav>
       <Dialog @close="mobileMenuOpen = false" :open="mobileMenuOpen">
-        <div class="fixed inset-0 z-50" />
+        <div class="fixed inset-0 z-50">
         <DialogPanel
-          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#52492D] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#52492D] px-8 py-6 sm:max-w-lg sm:ring-1 sm:ring-gray-900/10"
         >
           <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
@@ -66,6 +66,7 @@
             </div>
           </div>
         </DialogPanel>
+        </div>
       </Dialog>
     </header>
   </div>
@@ -78,7 +79,7 @@ import { Dialog, DialogPanel } from "@headlessui/vue";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Works", href: "/works" },
+  { name: "Work", href: "/work" },
   { name: "Pricing", href: "/pricing" },
   { name: "Contact", href: "/contact" },
 ];
@@ -87,6 +88,10 @@ const mobileMenuOpen = ref(false);
 </script>
 
 <style>
+.header {
+  padding-top: 1.7vw;
+}
+
 .popover-button-double-underline {
   position: relative;
   display: inline-block;
