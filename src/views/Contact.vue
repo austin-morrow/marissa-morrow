@@ -1,11 +1,10 @@
 <template>
   <div
-    class="relative isolate overflow-hidden bg-[#F2F1EC] px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
+    class="relative isolate overflow-hidden bg-[#F5f5f3] lg:overflow-visible lg:px-16"
   >
-    <div class="grid gap-8 sm:grid-cols-2 sm:items-center">
-      <div class="flex flex-col items-center sm:order-1">
+    <div class="grid sm:grid-cols-2">
+      <div class="flex flex-col items-center sm:order-1 pt-16">
         <div class="text-xl font-kaisei-decol">
-        <h2>Let's connect</h2>
         <img
           src="../assets/images/IMG_1845.JPG"
           alt="Image"
@@ -14,7 +13,7 @@
       </div>
       </div>
 
-      <div class="flex justify-center sm:order-2">
+      <div class="flex flex-col items-center sm:order-2">
         <div style="width: 100%">
           <iframe
             ref="hecticForm"

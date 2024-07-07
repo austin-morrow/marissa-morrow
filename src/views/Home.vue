@@ -1,10 +1,10 @@
 <template>
   <div
-    class="header relative isolate overflow-hidden bg-[#F2F1EC] px-6 lg:overflow-visible lg:px-0"
+    class="header relative isolate overflow-hidden bg-[#F5F5F3] px-6 lg:overflow-visible lg:px-0"
   >
     <!-- Hero Section -->
     <section
-      class="mx-auto max-w-7xl flex flex-col items-center py-6 lg:grid grid-cols-1 lg:grid-cols-2 gap-x-16 lg:gap-y-10 lg:mx-0 lg:max-w-none"
+      class="mx-auto max-w-7xl flex flex-col items-center py-6 lg:grid grid-cols-1 lg:grid-cols-2 gap-x-2 lg:gap-y-10 lg:mx-0 lg:max-w-none"
     >
       <div class="lg:sticky lg:top-4 lg:col-start-1 flex justify-center pb-8">
         <img
@@ -33,10 +33,10 @@
         <div class="grid-item">
           <div class="grid-image">
             <div class="grid-image-inner-wrapper">
-              <h2 class="text-2xl font-kaisei-decol tracking-tight">
+              <h2 class="text-3xl font-kaisei-decol leading-normal tracking-wide">
                 Life insurance is really doin’ <br />exactly what you like
                 <br />And love ‘cause that’s that shit that keep the fire
-                <br />lightin’ up <br />Get out the dark and spark, yeah
+                lightin’ up <br />Get out the dark and spark, yeah
                 <br />Gon’ head, lighten up || Smino
               </h2>
             </div>
@@ -96,8 +96,8 @@
           </div>
         </div>
 
-        <div class="my-4 px-4">
-          <div class="font-kaisei-decol mb-4 text-4xl">Work</div>
+        <div class="my-4 px-4 pb-16">
+          <div class="font-kaisei-decol mb-4 text-4xl">Portfolio</div>
           <div class="flex flex-wrap">
             <div
               v-for="(work, index) in works"
@@ -122,8 +122,8 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 
 const works = [
-  { name: "Concerts", href: `/work?category=Concerts` },
-  { name: "Portraits", href: `/work?category=Portraits` },
+  { name: "Concerts", href: `/portfolio?category=Concerts` },
+  { name: "Portraits", href: `/portfolio?category=Portraits` },
 ];
 
 // Extract category from URL query parameters
@@ -132,7 +132,7 @@ const category = params.get("category");
 
 // Function to navigate to works page with selected category
 const navigateToWorks = (category) => {
-  router.push(`/work?category=${category}`);
+  router.push(`/portfolio?category=${category}`);
 };
 </script>
 

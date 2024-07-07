@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-[#F2F1EC]">
+  <div class="bg-[#f5f5f3]">
     <div class="container mx-auto text-center py-24 px-4"> 
       <div class="grid gap-8 md:grid-cols-2 md:items-center">
         <div class="relative md:order-2 flex justify-center"> 
           <img
             src="../assets/images/IMG_7030.JPG"
             alt="Image"
-            class="w-full h-auto max-w-full lg:max-w-[400px] lg:h-auto" 
+            class="w-full h-auto max-w-full lg:max-w-[450px] lg:h-auto" 
           />
         </div>
         <div class="md:order-1 text-left md:pl-4 font-kaisei-decol">

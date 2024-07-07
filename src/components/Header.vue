@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-[#F2F1EC]">
-    <header class="header inset-x-0 top-0 z-50 pt-2">
+  <div class="bg-[#F5F5F3]">
+    <header class="header inset-x-0 top-0 z-50 pt-2 pb-16">
       <nav
         class="container mx-auto flex items-center justify-between p-6 lg:px-8" aria-label="Global"
       >
@@ -18,7 +18,7 @@
           >
             <span class="sr-only">Open main menu</span>
             <div
-              class="popover-button-double-underline flex items-center gap-x-1 text-2xl leading-6 text-gray-900 font-kaisei-decol"
+              class="popover-button-double-underline flex items-center gap-x-1 text-xl leading-6 text-gray-900 font-kaisei-decol"
             >
               Menu
             </div>
@@ -28,7 +28,7 @@
       <Dialog @close="mobileMenuOpen = false" :open="mobileMenuOpen">
         <div class="fixed inset-0 z-50">
         <DialogPanel
-          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#52492D] px-8 py-6 sm:max-w-lg sm:ring-1 sm:ring-gray-900/10"
+          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#3e431a] px-8 py-6 sm:max-w-lg sm:ring-1 sm:ring-gray-900/10"
         >
           <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
@@ -46,7 +46,7 @@
             >
               <span class="sr-only">Close menu</span>
               <div
-                class="popover-button-double-underline flex items-center gap-x-1 text-xl leading-6 text-[#F0EAE2] font-kaisei-decol"
+                class="popover-button-double-underline flex items-center gap-x-1 text-xl leading-6 text-[#f5f5f3] font-kaisei-decol"
               >
                 Close
               </div>
@@ -59,7 +59,7 @@
                   v-for="item in navigation"
                   :key="item.name"
                   :href="item.href"
-                  class="-mx-3 block rounded-lg px-3 py-2 font-kaisei-decol text-5xl text-[#F0EAE2]"
+                  class="-mx-3 block rounded-lg px-3 py-2 font-kaisei-decol text-3xl text-[#f5f5f3]"
                   >{{ item.name }}</a
                 >
               </div>
@@ -79,7 +79,7 @@ import { Dialog, DialogPanel } from "@headlessui/vue";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Work", href: "/work" },
+  { name: "Portfolio", href: "/portfolio" },
   { name: "Pricing", href: "/pricing" },
   { name: "Contact", href: "/contact" },
 ];

@@ -1,10 +1,10 @@
 <template>
-  <div class="p-5 md:p-10 bg-[#F2F1EC]">
+  <div class="p-5 md:p-10 bg-[#f5f5f3]">
     <div class="mb-5 flex justify-center font-kaisei-decol">
       <template v-for="(category, index) in categories" :key="index">
         <div
           class="text-lg font-semibold cursor-pointer py-20 px-4 "
-          :class="{ 'text-[#52492D]': selectedCategory === category }"
+          :class="{ 'text-[#3e431a]': selectedCategory === category }"
           @click="selectCategory(category)"
         >
           {{ category }}
@@ -41,7 +41,7 @@ import img11 from '../assets/works/IMG_1840.JPG';
 import img12 from '../assets/works/IMG_1841.JPG';
 
 export default {
-  name: 'Works',
+  name: 'Portfolio',
   data() {
     return {
       selectedCategory: 'All',

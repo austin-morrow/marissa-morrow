@@ -1,5 +1,5 @@
 <template>
-  <footer class="relative bg-[#52492D]">
+  <footer class="relative bg-[#3e431a]">
     <div class="px-6 lg:px-8 pt-8 w-full lg:pt-24 text-white font-kaisei-decol">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <div class="pb-8">
@@ -42,7 +42,7 @@ export default {
         },
         {
           links: [
-            { text: "Work", url: "/work" },
+            { text: "Portfolio", url: "/portfolio" },
             { text: "Pricing", url: "/pricing" },
           ],
         },
