@@ -1,8 +1,9 @@
-import { Inter } from "next/font/google";
+import { Kaisei_Decol } from "next/font/google";
 import "./globals.css";
 import Header from '@/app/components/Header';
+import Footer from '@/app/components/Footer';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Kaisei_Decol({  weight: '400', subsets: ["latin"] });
 
 export const metadata = {
   title: "Marissa Morrow",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
      <Header />
       {children}
+      <Footer />
       </body>
     </html>
   );
