@@ -1685,12 +1685,6 @@ video {
 .grid {
   display: grid;
 }
-.h-8 {
-  height: 2rem;
-}
-.w-auto {
-  width: auto;
-}
 .w-full {
   width: 100%;
 }
@@ -1789,10 +1783,6 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-.py-2\.5 {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
 }
 .py-24 {
   padding-top: 6rem;

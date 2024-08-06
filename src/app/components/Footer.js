@@ -24,19 +24,29 @@ export default function Footer() {
               >
                 <li>
                   <ul role="list" className="mt-4 text-md text-white">
-                    <li className="mt-4">Home</li>
-                    <li className="mt-4">About</li>
+                    <Link href="/">
+                      <li className="mt-4">Home</li>
+                    </Link>
+                    <Link href="/about">
+                      <li className="mt-4">About</li>
+                    </Link>
                   </ul>
                 </li>
                 <li>
                   <ul role="list" className="mt-4 text-md text-white">
-                    <li className="mt-4">Work</li>
-                    <li className="mt-4">Pricing</li>
+                    <Link href="/portfolio">
+                      <li className="mt-4">Portfolio</li>
+                    </Link>
+                    <Link href="/pricing">
+                      <li className="mt-4">Pricing</li>
+                    </Link>
                   </ul>
                 </li>
                 <li>
                   <ul role="list" className="mt-4 text-md text-white">
-                    <li className="mt-4">Contact</li>
+                    <Link href="/contact">
+                      <li className="mt-4">Contact</li>
+                    </Link>
                   </ul>
                 </li>
               </ul>
