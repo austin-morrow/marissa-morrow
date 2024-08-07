@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/about/page",{
+
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Faustinmorrow%2FDocuments%2Fmorro%2Fsource%2Fprojects%2Fmarissa-morrow%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Faustinmorrow%2FDocuments%2Fmorro%2Fsource%2Fprojects%2Fmarissa-morrow%2Fpublic%2Fimages%2Fabout.png%22%2C%22ids%22%3A%5B%22*%22%5D%7D&server=false!":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Faustinmorrow%2FDocuments%2Fmorro%2Fsource%2Fprojects%2Fmarissa-morrow%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Faustinmorrow%2FDocuments%2Fmorro%2Fsource%2Fprojects%2Fmarissa-morrow%2Fpublic%2Fimages%2Fabout.png%22%2C%22ids%22%3A%5B%22*%22%5D%7D&server=false! ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/image-component.js */ \"(app-pages-browser)/./node_modules/next/dist/client/image-component.js\", 23));\n;\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./public/images/about.png */ \"(app-pages-browser)/./public/images/about.png\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyJTJGVXNlcnMlMkZhdXN0aW5tb3Jyb3clMkZEb2N1bWVudHMlMkZtb3JybyUyRnNvdXJjZSUyRnByb2plY3RzJTJGbWFyaXNzYS1tb3Jyb3clMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmltYWdlLWNvbXBvbmVudC5qcyUyMiUyQyUyMmlkcyUyMiUzQSU1QiU1RCU3RCZtb2R1bGVzPSU3QiUyMnJlcXVlc3QlMjIlM0ElMjIlMkZVc2VycyUyRmF1c3Rpbm1vcnJvdyUyRkRvY3VtZW50cyUyRm1vcnJvJTJGc291cmNlJTJGcHJvamVjdHMlMkZtYXJpc3NhLW1vcnJvdyUyRnB1YmxpYyUyRmltYWdlcyUyRmFib3V0LnBuZyUyMiUyQyUyMmlkcyUyMiUzQSU1QiUyMiolMjIlNUQlN0Qmc2VydmVyPWZhbHNlISIsIm1hcHBpbmdzIjoiQUFBQSxvT0FBd0o7QUFDeEo7QUFDQSw0S0FBK0giLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLz8yZDVkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2F1c3Rpbm1vcnJvdy9Eb2N1bWVudHMvbW9ycm8vc291cmNlL3Byb2plY3RzL21hcmlzc2EtbW9ycm93L25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2ltYWdlLWNvbXBvbmVudC5qc1wiKTtcbjtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2F1c3Rpbm1vcnJvdy9Eb2N1bWVudHMvbW9ycm8vc291cmNlL3Byb2plY3RzL21hcmlzc2EtbW9ycm93L3B1YmxpYy9pbWFnZXMvYWJvdXQucG5nXCIpO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Faustinmorrow%2FDocuments%2Fmorro%2Fsource%2Fprojects%2Fmarissa-morrow%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Faustinmorrow%2FDocuments%2Fmorro%2Fsource%2Fprojects%2Fmarissa-morrow%2Fpublic%2Fimages%2Fabout.png%22%2C%22ids%22%3A%5B%22*%22%5D%7D&server=false!\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./public/images/about.png":
+/*!*********************************!*\
+  !*** ./public/images/about.png ***!
+  \*********************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"src\":\"/_next/static/media/about.bcfdeed7.png\",\"height\":588,\"width\":392,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabout.bcfdeed7.png&w=5&q=70\",\"blurWidth\":5,\"blurHeight\":8});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3B1YmxpYy9pbWFnZXMvYWJvdXQucG5nIiwibWFwcGluZ3MiOiI7QUFBQSwrREFBZSxDQUFDLDhMQUE4TCIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9wdWJsaWMvaW1hZ2VzL2Fib3V0LnBuZz9hY2I4Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9hYm91dC5iY2ZkZWVkNy5wbmdcIixcImhlaWdodFwiOjU4OCxcIndpZHRoXCI6MzkyLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmFib3V0LmJjZmRlZWQ3LnBuZyZ3PTUmcT03MFwiLFwiYmx1cldpZHRoXCI6NSxcImJsdXJIZWlnaHRcIjo4fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./public/images/about.png\n"));
+
+/***/ })
+
+});

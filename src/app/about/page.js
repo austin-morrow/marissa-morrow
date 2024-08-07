@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AboutImg from '../../../public/images/about.png'
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
             </p>
           </div>
           <Image
-            src="/images/home_quote.jpg"
+            src={AboutImg}
             alt="Example photo"
             className="lg:pr-8 lg:pt-4"
             width={2432}

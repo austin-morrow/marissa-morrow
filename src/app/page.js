@@ -1,6 +1,16 @@
+"use client"
+
 import Image from "next/image";
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
+
+  const router = useRouter();
+
+  const handleNavigation = (category) => {
+    router.push(`/portfolio/?category=${category}`);
+  };
+
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -61,7 +71,14 @@ export default function Home() {
             height={1442}
           />
         </div>
-        <div></div>
+        <div className='pt-12'>
+      <div className='text-3xl'>Portfolio</div>
+      <div className='flex flex-row gap-x-4 pt-4 text-lg'>
+        <div className='cursor-pointer' onClick={() => handleNavigation('concerts')}>Concerts</div>
+        <div>|</div>
+        <div className='cursor-pointer' onClick={() => handleNavigation('portraits')}>Portraits</div>
+      </div>
+    </div>
       </div>
     </div>
   );
