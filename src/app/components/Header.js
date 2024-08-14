@@ -11,13 +11,13 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header>
+    <header className="pt-10">
       <nav
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-        <Link href="/" className="-m-1.5 p-1.5">
+        <Link href="/" className="-m-1.5 p-1.5 text-2xl">
             <h1>Marissa Morrow</h1>
             </Link>
         </div>
@@ -28,7 +28,7 @@ export default function Header() {
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
           >
             <span className="sr-only">Open main menu</span>
-            <div>MENU</div>
+            <div className="text-xl">MENU</div>
           </button>
         </div>
       </nav>
