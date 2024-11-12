@@ -11,17 +11,44 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="pt-10">
+    <header className="py-[3.4vw] bg-[#f2f1ec]">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="px-[4vw] flex items-center justify-between"
       >
         <div className="flex lg:flex-1">
-        <Link href="/" className="-m-1.5 p-1.5 text-2xl">
+          <Link href="/" className="-m-1.5 p-1.5 text-3xl">
             <h1>Marissa Morrow</h1>
-            </Link>
+          </Link>
         </div>
-        <div className="flex lg:flex-1 lg:justify-end">
+          <div className="hidden space-y-2 py-6 lg:flex lg:space-y-0 lg:space-x-4">
+            <Link
+              href="/portfolio"
+              className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7"
+            >
+              Portfolio
+            </Link>
+            <Link
+              href="/about"
+              className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7"
+            >
+              About
+            </Link>
+            <Link
+              href="/pricing"
+              className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7"
+            >
+              Pricing
+            </Link>
+            <Link
+              href="/contact"
+              className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7"
+            >
+              Contact
+            </Link>
+          </div>
+       
+        <div className="lg:hidden flex lg:flex-1 lg:justify-end">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
@@ -36,13 +63,13 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#3E431A] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-          <Image
-                src="/images/flower.png"
-                alt="flowers"
-                width={75}
-                height={75}
-              />
-          
+            <Image
+              src="/images/flower.png"
+              alt="flowers"
+              width={75}
+              height={75}
+            />
+
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -86,11 +113,11 @@ export default function Header() {
                 </Link>
               </div>
               <div className="py-6">
-              <IconContext.Provider
-              value={{ color: "white", className: "global-class-name" }}
-            >
-              <IoLogoInstagram />
-            </IconContext.Provider>
+                <IconContext.Provider
+                  value={{ color: "white", className: "global-class-name" }}
+                >
+                  <IoLogoInstagram />
+                </IconContext.Provider>
               </div>
             </div>
           </div>

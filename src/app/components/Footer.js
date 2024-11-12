@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 
 export default function Footer() {
   return (
-    <main className="mx-auto bg-[#3E431A] px-6 py-6 lg:px-12 mt-24 w-full sm:mt-32 lg:mt-40">
+    <main className="mx-auto bg-[#3E431A] px-6 py-6 lg:px-12 w-full">
       <div className="mx-auto max-w-2xl lg:max-w-none">
         <div className="opacity: 1; transform: none;">
           <div className="grid grid-cols-1 pb-4">
