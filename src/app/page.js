@@ -26,7 +26,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 pb-24">
+{/* Possibly put in another page */}
+
+      {/* <div className="mx-auto max-w-7xl px-6 lg:px-8 pb-24">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 items-center">
           <div className="lg:max-w-lg">
             <p className="mt-2 text-3xl tracking-tight text-gray-900">
@@ -36,7 +38,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

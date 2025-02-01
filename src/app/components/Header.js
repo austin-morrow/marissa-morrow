@@ -6,29 +6,29 @@ import Link from "next/link";
 import {
   Dialog,
   DialogPanel,
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Popover,
-  PopoverButton,
+  // Disclosure,
+  // DisclosureButton,
+  // DisclosurePanel,
+  //Popover,
+  //PopoverButton,
   PopoverGroup,
-  PopoverPanel,
+  //PopoverPanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+//import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-const products = [
-  { name: "Creative Portraits" },
-  { name: "Family/Couples" },
-  { name: "Elopements and small weddings" },
-  { name: "Concerts/Band Promos" },
-];
+// const products = [
+//   { name: "Creative Portraits" },
+//   { name: "Family/Couples" },
+//   { name: "Elopements and small weddings" },
+//   { name: "Concerts/Band Promos" },
+// ];
 
-export default function Example() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-white font-serif">
       <nav
         aria-label="Global"
         className="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 my-8"
@@ -40,7 +40,7 @@ export default function Example() {
             }}
             className="-m-1.5 p-1.5"
           >
-            <div className="text-lg">Marissa Morrow</div>
+            <div className="text-lg font-light">Marissa Morrow</div>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -54,15 +54,18 @@ export default function Example() {
           </button>
         </div>
         <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center">
-          <div className="text-lg font-semibold hidden lg:flex mb-6">
-          <Link href={{
-              pathname: "/",
-            }}>
-            Marissa Morrow
+          <div className="text-lg font-light hidden lg:flex mb-6">
+            <Link
+              href={{
+                pathname: "/",
+              }}
+            >
+              Marissa Morrow
             </Link>
           </div>
           <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-            <Popover className="relative">
+            {/* Eventually create seperate pages for each photo shoot type */}
+            {/* <Popover className="relative">
               <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
                 Portfolio
                 <ChevronDownIcon
@@ -94,10 +97,18 @@ export default function Example() {
                   ))}
                 </div>
               </PopoverPanel>
-            </Popover>
+            </Popover> */}
+            <Link
+              className="text-sm/6 font-light text-gray-900"
+              href={{
+                pathname: "/portfolio",
+              }}
+            >
+              Portfolio
+            </Link>
 
             <Link
-              className="text-sm/6 font-semibold text-gray-900"
+              className="text-sm/6 font-light text-gray-900"
               href={{
                 pathname: "/about",
               }}
@@ -105,7 +116,7 @@ export default function Example() {
               About
             </Link>
             <Link
-              className="text-sm/6 font-semibold text-gray-900"
+              className="text-sm/6 font-light text-gray-900"
               href={{
                 pathname: "/details",
               }}
@@ -113,7 +124,7 @@ export default function Example() {
               Details
             </Link>
             <Link
-              className="text-sm/6 font-semibold text-gray-900"
+              className="text-sm/6 font-light text-gray-900"
               href={{
                 pathname: "/pricing",
               }}
@@ -121,7 +132,7 @@ export default function Example() {
               Pricing
             </Link>
             <Link
-              className="text-sm/6 font-semibold text-gray-900"
+              className="text-sm/6 font-light text-gray-900"
               href={{
                 pathname: "/contact",
               }}
@@ -156,10 +167,11 @@ export default function Example() {
               <XMarkIcon aria-hidden="true" className="size-6" />
             </button>
           </div>
-          <div className="mt-6 flow-root">
+          <div className="mt-6 flow-root font-serif">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Disclosure as="div" className="-mx-3">
+                {/* Eventually create seperate pages for each photo shoot type */}
+                {/* <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     Portfolio
                     <ChevronDownIcon
@@ -179,12 +191,20 @@ export default function Example() {
                       </DisclosureButton>
                     ))}
                   </DisclosurePanel>
-                </Disclosure>
+                </Disclosure> */}
+                <Link
+                  href={{
+                    pathname: "/portfolio",
+                  }}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
+                >
+                  Portfolio
+                </Link>
                 <Link
                   href={{
                     pathname: "/about",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
                 >
                   About
                 </Link>
@@ -192,7 +212,7 @@ export default function Example() {
                   href={{
                     pathname: "/details",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
                 >
                   Details
                 </Link>
@@ -200,7 +220,7 @@ export default function Example() {
                   href={{
                     pathname: "/pricing",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
                 >
                   Pricing
                 </Link>
@@ -208,7 +228,7 @@ export default function Example() {
                   href={{
                     pathname: "/contact",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
                 >
                   Contact
                 </Link>
