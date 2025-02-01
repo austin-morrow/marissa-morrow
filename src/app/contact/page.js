@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image'
 
-export default function About() {
+export default function Contact() {
 
   const iframeRef = useRef(null);
 
