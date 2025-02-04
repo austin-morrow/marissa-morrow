@@ -27,7 +27,9 @@ export default function Footer() {
           ))}
         </div>
         <p className="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0">
-          &copy; 2025 Marissa Morrow. All rights reserved.
+          {/* &copy; Marissa Morrow Photo 2025 */}
+          Marissa Morrow - Copyright 2025
+
         </p>
       </div>
     </footer>

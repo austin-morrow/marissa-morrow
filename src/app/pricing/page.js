@@ -1,8 +1,108 @@
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
+
+const tiers = [
+  {
+    description:
+      "Creative Portraits (Individuals, bands, artists, etc.), Families, Couples (engagements, portraits, proposals, etc.): $300-500*",
+    price:
+      "*If required, studio rental cost or photography permit is typically an additional $100-200.",
+    features: [
+      "30 min consultation",
+      "1-hour photoshoot",
+      "Editing",
+      "Digitak gallery of 50+ images",
+      "Delivery within 2-4 weeks",
+    ],
+  },
+  {
+    description:
+      "Elopements & Small-Weddings (less than 100 guests): $700-3,600*",
+    price:
+      "*Travel costs for elopements/weddings outside of the Denver Metro area or out-of-state will be added the total cost accordingly.",
+    features: [
+      "1-hour consultation",
+      "4-12 hours of coverage",
+      "Editing",
+      "Film photos with physical and digital delivery (optional)",
+      "Digital gallery of 400+ images",
+      "Delivery within 4-8 weeks",
+    ],
+  },
+  {
+    description: "Concerts: $150-200*",
+    price:
+      "*If you’re a small local band or artist who needs some flexibility in pricing, let me know when you fill out the contact form!",
+    features: [
+      "1-hour set",
+      "Sneak Peek sent within 48 hours",
+      "Editing",
+      "Digital gallery of 50+ images",
+      "Delivery within 2-4 weeks",
+    ],
+  },
+];
+
 export default function Pricing() {
-    return (
-      <main className="">
-  Pricing
-      </main>
-    );
-  }
-  
+  return (
+    <div className="bg-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl sm:text-center">
+          <h2 className="text-base/7 font-semibold text-indigo-600">Pricing</h2>
+          <p className="mt-2 text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-6xl">
+            Pricing that grows with you
+          </p>
+        </div>
+        <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg font-medium text-gray-600 sm:text-center sm:text-xl/8">
+          Choose an affordable plan that’s packed with the best features for
+          engaging your audience, creating customer loyalty, and driving sales.
+        </p>
+        <div className="mt-20 flow-root">
+          <div className="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+            {tiers.map((tier) => (
+              <div key={tier.id} className="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+                <h3
+                  id={tier.id}
+                  className="text-base/7 font-semibold text-gray-900"
+                >
+                  {tier.description}
+                </h3>
+                <p className="italic mt-3 text-sm/6 text-gray-500">{tier.price}</p>
+                <ul
+                  role="list"
+                  className="mt-6 space-y-3 text-sm/6 text-gray-600"
+                >
+                  {tier.features.map((feature) => (
+                    <li key={feature} className="flex gap-x-3">
+                      <CheckCircleIcon
+                        aria-hidden="true"
+                        className="h-6 w-5 flex-none text-indigo-600"
+                      />
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="mt-16 max-w-2xl">
+          <h2 className="text-pretty text-3xl font-semibold tracking-tight text-gray-900">
+            Discounted Rates
+          </h2>
+          <p className="italic mt-6">
+            To make my photography as accessible as possible, I offer up to $100
+            off for BIPOC+ and LGBTQIA+ clients, along with sliding scale
+            options for single parents, low-income families, and survivors of
+            domestic violence. I’m passionate about supporting these communities
+            specifically because of my personal background and my belief that
+            every person deserves to have their memories captured by a
+            professional photographer regardless of how much they can pay. If
+            you relate to any of these experiences or identities and a
+            discounted rate would help, please let me know on your contact form,
+            and we’ll find a way to make it work.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
