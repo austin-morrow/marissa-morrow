@@ -1,4 +1,7 @@
-import { CheckCircleIcon } from "@heroicons/react/20/solid";
+import { SparklesIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
+
+
 
 const tiers = [
   {
@@ -46,16 +49,15 @@ export default function Pricing() {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-4xl sm:text-center">
-          <h2 className="text-base/7 font-semibold text-indigo-600">Pricing</h2>
-          <p className="mt-2 text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-6xl">
-            Pricing that grows with you
-          </p>
-        </div>
-        <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg font-medium text-gray-600 sm:text-center sm:text-xl/8">
-          Choose an affordable plan that’s packed with the best features for
-          engaging your audience, creating customer loyalty, and driving sales.
-        </p>
+        <figure className="mt-16">
+          <Image
+            alt=""
+            src="/images/IMG_0122.jpg"
+            width={983}
+            height={655}
+            className="aspect-video rounded-lg bg-gray-50 object-cover"
+          />
+        </figure>
         <div className="mt-20 flow-root">
           <div className="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
             {tiers.map((tier) => (
@@ -66,14 +68,16 @@ export default function Pricing() {
                 >
                   {tier.description}
                 </h3>
-                <p className="italic mt-3 text-sm/6 text-gray-500">{tier.price}</p>
+                <p className="italic mt-3 text-sm/6 text-gray-500">
+                  {tier.price}
+                </p>
                 <ul
                   role="list"
                   className="mt-6 space-y-3 text-sm/6 text-gray-600"
                 >
                   {tier.features.map((feature) => (
                     <li key={feature} className="flex gap-x-3">
-                      <CheckCircleIcon
+                      <SparklesIcon
                         aria-hidden="true"
                         className="h-6 w-5 flex-none text-indigo-600"
                       />
