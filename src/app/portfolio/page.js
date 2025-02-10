@@ -1,39 +1,348 @@
+import Image from "next/image";
+
 export default function Portfolio() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-12 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
-          <h2 className="text-lg/8 font-semibold text-gray-900">
+          <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
             Creative Portraits
           </h2>
-          <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5">
-            {/* Add portfolio photos */}
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/portraits/IMG_0417.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/portraits/IMG_9684.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/portraits/IMG_0092.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/portraits/IMG_6866.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/portraits/IMG_3345.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/portraits/IMG_01222.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/portraits/IMG_9953.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/portraits/IMG_6916.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="mx-auto max-w-2xl lg:max-w-none">
-          <h2 className="text-lg/8 font-semibold text-gray-900">
+          <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
             Family / Couples
           </h2>
-          <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5">
-            {/* Add portfolio photos */}
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/couples/IMG_0895.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/couples/IMG_7393.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/couples/IMG_3182.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/couples/IMG_3144.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/couples/IMG_8118.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/couples/IMG_0679.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/couples/IMG_9946.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/couples/IMG_0064.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="mx-auto max-w-2xl lg:max-w-none">
-          <h2 className="text-lg/8 font-semibold text-gray-900">
+          <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
             Elopements and small weddings
           </h2>
-          <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5">
-            {/* Add portfolio photos */}
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/weddings/IMG_9790.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/weddings/IMG_0673.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/weddings/IMG_0873.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/weddings/IMG_2165.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/weddings/IMG_9611.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/weddings/IMG_7660.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/weddings/IMG_9783.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/weddings/IMG_2281.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
           </div>
         </div>
         <div className="mx-auto max-w-2xl lg:max-w-none">
-          <h2 className="text-lg/8 font-semibold text-gray-900">
+          <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
             Concerts / Band Promos
           </h2>
-          <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5">
-            {/* Add portfolio photos */}
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_0492.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_4980.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_0283.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_0001.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_9724.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_7722.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_5848.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
