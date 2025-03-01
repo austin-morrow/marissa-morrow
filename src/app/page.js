@@ -5,7 +5,7 @@ import Scroll from "./components/Scroll";
 export default function Home() {
   return (
     <div className="overflow-hidden">
-      <div>
+      <div className="py-16">
         <Scroll />
       </div>
 

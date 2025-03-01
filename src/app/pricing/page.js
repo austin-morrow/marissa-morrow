@@ -1,8 +1,6 @@
 import { SparklesIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
-
-
 const tiers = [
   {
     description:
@@ -47,15 +45,16 @@ const tiers = [
 
 export default function Pricing() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <figure className="mt-16">
+        <figure className="mt-16 flex justify-center">
           <Image
             alt=""
             src="/images/IMG_0122.jpg"
             width={983}
             height={655}
-            className="aspect-video rounded-lg bg-gray-50 object-cover"
+            className="aspect-video rounded-lg bg-gray-50 object-cover mx-auto"
+            style={{ maxWidth: "983px", width: "100%", height: "auto" }}
           />
         </figure>
         <div className="mt-20 flow-root">
@@ -79,7 +78,7 @@ export default function Pricing() {
                     <li key={feature} className="flex gap-x-3">
                       <SparklesIcon
                         aria-hidden="true"
-                        className="h-6 w-5 flex-none text-indigo-600"
+                        className="h-6 w-5 flex-none text-lime-900"
                       />
                       {feature}
                     </li>

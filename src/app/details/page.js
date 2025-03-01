@@ -32,7 +32,7 @@ export default function Details() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base/7 font-semibold text-indigo-600">
+              <h2 className="text-base/7 font-semibold text-lime-900">
                 How It Works:
               </h2>
               <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
@@ -40,25 +40,23 @@ export default function Details() {
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 {details.map((detail) => (
-                  <div className="relative pl-9">
-                    <dt className="inline text-gray-900">
-                      <dd
-                        aria-hidden="true"
-                        className="absolute left-1 size-5 text-indigo-600"
-                      >
-                        {detail.number}{" "}
-                      </dd>
-                      {detail.description}
+                  <div className="relative pl-9" key={detail.number}>
+                    <dt className="absolute left-1 size-5 text-lime-900">
+                      {detail.number}
                     </dt>
+                    <dd className="pl-10 text-gray-900">
+                      {detail.description}
+                    </dd>
                   </div>
                 ))}
               </dl>
+
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 <div className="relative pl-9">
                   <dt className="inline text-gray-900">
                     <dd
                       aria-hidden="true"
-                      className="absolute left-1 size-5 text-indigo-600"
+                      className="absolute left-1 size-5 text-lime-900"
                     >
                       6.{" "}
                     </dd>
@@ -66,7 +64,7 @@ export default function Details() {
                     weeks*.
                     <dd
                       aria-hidden="true"
-                      className="absolute left-1 size-5 text-indigo-600"
+                      className="absolute left-1 size-5 text-lime-900"
                     ></dd>
                     <span className="italic">
                       *editing time varies by type of photoshoot.
@@ -79,7 +77,7 @@ export default function Details() {
                   <dt className="inline text-gray-900">
                     <dd
                       aria-hidden="true"
-                      className="absolute left-1 size-5 text-indigo-600"
+                      className="absolute left-1 size-5 text-lime-900"
                     >
                       7.{" "}
                     </dd>
