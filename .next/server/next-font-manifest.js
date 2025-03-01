@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/austinmorrow/Documents/morro/source/projects/marissa-morrow/src/app/layout\":[\"static/media/0b6f6dbdd15db740-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/austinmorrow/Documents/morro/source/projects/marissa-morrow/src/app/layout\":[\"static/media/d942298c51e8ff87-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
