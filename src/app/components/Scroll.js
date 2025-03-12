@@ -82,7 +82,7 @@ const Scroll = () => {
       {/* Left Bar Button */}
       <button
         onClick={() => handleScroll("left")}
-        className="absolute left-0 top-0 h-full w-10 bg-black bg-opacity-25 text-white flex items-center justify-center z-20 hover:bg-opacity-50 transition"
+        className="absolute left-0 top-0 h-full w-10 bg-black bg-opacity-25 text-white flex items-center justify-center hover:bg-opacity-50 transition"
         style={{ marginLeft: "-10px" }}
       >
         <ChevronLeftIcon className="h-6 w-6" />
@@ -91,7 +91,7 @@ const Scroll = () => {
       {/* Right Bar Button */}
       <button
         onClick={() => handleScroll("right")}
-        className="absolute right-0 top-0 h-full w-10 bg-black bg-opacity-25 text-white flex items-center justify-center z-20 hover:bg-opacity-50 transition"
+        className="absolute right-0 top-0 h-full w-10 bg-black bg-opacity-25 text-white flex items-center justify-center hover:bg-opacity-50 transition"
         style={{ marginRight: "-10px" }}
       >
         <ChevronRightIcon className="h-6 w-6" />

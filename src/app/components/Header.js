@@ -40,7 +40,7 @@ export default function Header() {
             }}
             className="-m-1.5 p-1.5"
           >
-            <div className="text-lg font-light">Marissa Morrow</div>
+            <div className="text-xl font-light">Marissa Morrow</div>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -54,7 +54,7 @@ export default function Header() {
           </button>
         </div>
         <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center">
-          <div className="text-lg font-light hidden lg:flex mb-6">
+          <div className="text-2xl font-lighttracking-wide hidden lg:flex mb-6">
             <Link
               href={{
                 pathname: "/",
@@ -99,7 +99,7 @@ export default function Header() {
               </PopoverPanel>
             </Popover> */}
             <Link
-              className="text-sm/6 font-light text-gray-900"
+              className="text-md/6 font-light tracking-wide text-gray-900"
               href={{
                 pathname: "/portfolio",
               }}
@@ -108,7 +108,7 @@ export default function Header() {
             </Link>
 
             <Link
-              className="text-sm/6 font-light text-gray-900"
+              className="text-md/6 font-light tracking-wide text-gray-900"
               href={{
                 pathname: "/about",
               }}
@@ -116,7 +116,7 @@ export default function Header() {
               About
             </Link>
             <Link
-              className="text-sm/6 font-light text-gray-900"
+              className="text-md/6 font-light tracking-wide text-gray-900"
               href={{
                 pathname: "/details",
               }}
@@ -124,7 +124,7 @@ export default function Header() {
               Details
             </Link>
             <Link
-              className="text-sm/6 font-light text-gray-900"
+              className="text-md/6 font-light tracking-wide text-gray-900"
               href={{
                 pathname: "/pricing",
               }}
@@ -132,7 +132,7 @@ export default function Header() {
               Pricing
             </Link>
             <Link
-              className="text-sm/6 font-light text-gray-900"
+              className="text-md/6 font-light tracking-wide text-gray-900"
               href={{
                 pathname: "/contact",
               }}
@@ -196,7 +196,7 @@ export default function Header() {
                   href={{
                     pathname: "/portfolio",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Portfolio
                 </Link>
@@ -204,7 +204,7 @@ export default function Header() {
                   href={{
                     pathname: "/about",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   About
                 </Link>
@@ -212,7 +212,7 @@ export default function Header() {
                   href={{
                     pathname: "/details",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Details
                 </Link>
@@ -220,7 +220,7 @@ export default function Header() {
                   href={{
                     pathname: "/pricing",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Pricing
                 </Link>
@@ -228,7 +228,7 @@ export default function Header() {
                   href={{
                     pathname: "/contact",
                   }}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Contact
                 </Link>

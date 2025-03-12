@@ -57,7 +57,17 @@ export default function Pricing() {
             style={{ maxWidth: "983px", width: "100%", height: "auto" }}
           />
         </figure>
-        <div className="mt-20 flow-root">
+        <div className="bg-white px-6 pt-12 sm:pt-10 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="text-base/7 font-semibold text-lime-900">
+            Accessible Solutions
+            </p>
+            <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
+              Pricing
+            </h2>
+          </div>
+        </div>
+        <div className="mt-16 flow-root">
           <div className="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
             {tiers.map((tier) => (
               <div key={tier.id} className="pt-16 lg:px-8 lg:pt-0 xl:px-14">

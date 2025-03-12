@@ -41,7 +41,7 @@ export default function Details() {
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 {details.map((detail) => (
                   <div className="relative pl-9" key={detail.number}>
-                    <dt className="absolute left-1 size-5 text-lime-900">
+                    <dt className="absolute left-1 size-5 tet-lime-900x">
                       {detail.number}
                     </dt>
                     <dd className="pl-10 text-gray-900">
