@@ -238,7 +238,7 @@ export default function Portfolio() {
               <div>
                 <Image
                   class="h-auto max-w-full"
-                  src="/images/portfolio/weddings/IMG_7660.jpg"
+                  src="/images/portfolio/weddings/IMG_0405.jpg"
                   alt=""
                   width={2432}
                   height={1442}
@@ -274,6 +274,7 @@ export default function Portfolio() {
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
             <div class="grid gap-4">
               <div>
+              {/* vertical */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_0492.jpg"
@@ -283,9 +284,10 @@ export default function Portfolio() {
                 />
               </div>
               <div>
+              {/* horizontal */}
                 <Image
                   class="h-auto max-w-full"
-                  src="/images/portfolio/concerts/IMG_4980.jpg"
+                  src="/images/portfolio/concerts/IMG_4850.jpg"
                   alt=""
                   width={2432}
                   height={1442}
@@ -294,6 +296,7 @@ export default function Portfolio() {
             </div>
             <div class="grid gap-4">
               <div>
+               {/* horizontal */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_0283.jpg"
@@ -303,17 +306,7 @@ export default function Portfolio() {
                 />
               </div>
               <div>
-                <Image
-                  class="h-auto max-w-full"
-                  src="/images/portfolio/concerts/IMG_0001.jpg"
-                  alt=""
-                  width={2432}
-                  height={1442}
-                />
-              </div>
-            </div>
-            <div class="grid gap-4">
-              <div>
+               {/* vertical */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_9724.jpg"
@@ -325,6 +318,29 @@ export default function Portfolio() {
             </div>
             <div class="grid gap-4">
               <div>
+               {/* vertical */}
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_4980.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+              <div>
+                {/* horizontal */}
+                <Image
+                  class="h-auto max-w-full"
+                  src="/images/portfolio/concerts/IMG_4888.jpg"
+                  alt=""
+                  width={2432}
+                  height={1442}
+                />
+              </div>
+            </div>
+            <div class="grid gap-4">
+            <div>
+               {/* vertical */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_7722.jpg"
@@ -334,14 +350,16 @@ export default function Portfolio() {
                 />
               </div>
               <div>
+                {/* horizontal */}
                 <Image
                   class="h-auto max-w-full"
-                  src="/images/portfolio/concerts/IMG_5848.jpg"
+                  src="/images/portfolio/concerts/IMG_0001.jpg"
                   alt=""
                   width={2432}
                   height={1442}
                 />
               </div>
+          
             </div>
           </div>
         </div>
