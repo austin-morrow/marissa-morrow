@@ -54,7 +54,7 @@ export default function Header() {
           </button>
         </div>
         <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center">
-          <div className="text-2xl font-lighttracking-wide hidden lg:flex mb-6">
+          <div className="text-2xl font-lighttracking-wide hidden lg:flex mb-8 mt-8">
             <Link
               href={{
                 pathname: "/",

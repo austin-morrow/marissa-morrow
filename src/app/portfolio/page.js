@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <div className="bg-white py-12 sm:py-24">
+    <div className="bg-white py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
             Creative Portraits
           </h2>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
-            <div class="grid gap-4">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-2 pb-8">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -29,7 +29,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -49,7 +49,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -69,7 +69,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -82,7 +82,7 @@ export default function Portfolio() {
               <div>
                 <Image
                   class="h-auto max-w-full"
-                  src="/images/portfolio/portraits/IMG_6916.jpg"
+                  src="/images/portfolio/portraits/IMG_4242.jpg"
                   alt=""
                   width={2432}
                   height={1442}
@@ -96,8 +96,8 @@ export default function Portfolio() {
           <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
             Family / Couples
           </h2>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
-            <div class="grid gap-4">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-2 pb-8">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -117,7 +117,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -137,7 +137,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -157,7 +157,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -182,10 +182,10 @@ export default function Portfolio() {
 
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
-            Elopements and small weddings
+            Micro Weddings
           </h2>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
-            <div class="grid gap-4">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-2 pb-8">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -205,7 +205,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -225,7 +225,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -245,7 +245,7 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
                 <Image
                   class="h-auto max-w-full"
@@ -271,10 +271,10 @@ export default function Portfolio() {
           <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
             Concerts / Band Promos
           </h2>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-8">
-            <div class="grid gap-4">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-2 pb-8">
+            <div class="grid gap-2">
               <div>
-              {/* vertical */}
+                {/* vertical */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_0492.jpg"
@@ -284,7 +284,7 @@ export default function Portfolio() {
                 />
               </div>
               <div>
-              {/* horizontal */}
+                {/* horizontal */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_4850.jpg"
@@ -294,9 +294,9 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
-               {/* horizontal */}
+                {/* horizontal */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_0283.jpg"
@@ -306,7 +306,7 @@ export default function Portfolio() {
                 />
               </div>
               <div>
-               {/* vertical */}
+                {/* vertical */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_9724.jpg"
@@ -316,9 +316,9 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-2">
               <div>
-               {/* vertical */}
+                {/* vertical */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_4980.jpg"
@@ -338,9 +338,9 @@ export default function Portfolio() {
                 />
               </div>
             </div>
-            <div class="grid gap-4">
-            <div>
-               {/* vertical */}
+            <div class="grid gap-2">
+              <div>
+                {/* vertical */}
                 <Image
                   class="h-auto max-w-full"
                   src="/images/portfolio/concerts/IMG_7722.jpg"
@@ -359,7 +359,6 @@ export default function Portfolio() {
                   height={1442}
                 />
               </div>
-          
             </div>
           </div>
         </div>

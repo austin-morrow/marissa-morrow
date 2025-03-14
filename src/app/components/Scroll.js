@@ -24,7 +24,7 @@ const Scroll = () => {
             src="/images/scroll/IMG_0283.jpg"
             width={700}
             height={600}
-            className="object-cover inline-block mr-4"
+            className="object-cover inline-block mr-2"
             style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 1"
           />
@@ -32,7 +32,7 @@ const Scroll = () => {
             src="/images/scroll/IMG_0630.jpg"
             width={700}
             height={600}
-            className="object-cover inline-block mr-4"
+            className="object-cover inline-block mr-2"
             style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 2"
           />
@@ -40,7 +40,7 @@ const Scroll = () => {
             src="/images/scroll/IMG_7722.jpg"
             width={700}
             height={600}
-            className="object-cover inline-block mr-4"
+            className="object-cover inline-block mr-2"
             style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 3"
           />
@@ -48,7 +48,7 @@ const Scroll = () => {
             src="/images/scroll/IMG_9684.jpg"
             width={700}
             height={600}
-            className="object-cover inline-block mr-4"
+            className="object-cover inline-block mr-2"
             style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 4"
           />
@@ -56,7 +56,7 @@ const Scroll = () => {
             src="/images/scroll/IMG_9783.jpg"
             width={700}
             height={600}
-            className="object-cover inline-block mr-4"
+            className="object-cover inline-block mr-2"
             style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 5"
           />
@@ -64,7 +64,7 @@ const Scroll = () => {
             src="/images/scroll/IMG_9946.jpg"
             width={700}
             height={600}
-            className="object-cover inline-block mr-4"
+            className="object-cover inline-block mr-2"
             style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 6"
           />
@@ -72,7 +72,7 @@ const Scroll = () => {
             src="/images/scroll/IMG_9953.jpg"
             width={700}
             height={600}
-            className="object-cover inline-block mr-4"
+            className="object-cover inline-block mr-2"
             style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 7"
           />
