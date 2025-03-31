@@ -44,7 +44,7 @@ export default function Details() {
                     <dt className="absolute left-1 size-5 tet-lime-900x">
                       {detail.number}
                     </dt>
-                    <dd className="pl-10 text-gray-900">
+                    <dd className="text-gray-900">
                       {detail.description}
                     </dd>
                   </div>

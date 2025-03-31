@@ -101,6 +101,14 @@ export default function Header() {
             <Link
               className="text-md/6 font-light tracking-wide text-gray-900"
               href={{
+                pathname: "/",
+              }}
+            >
+              Home
+            </Link>
+            <Link
+              className="text-md/6 font-light tracking-wide text-gray-900"
+              href={{
                 pathname: "/portfolio",
               }}
             >
@@ -192,6 +200,14 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure> */}
+                <Link
+                  href={{
+                    pathname: "/",
+                  }}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
+                >
+                  Home
+                </Link>
                 <Link
                   href={{
                     pathname: "/portfolio",

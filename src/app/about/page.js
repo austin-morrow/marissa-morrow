@@ -27,7 +27,7 @@ export default function About() {
               src={AboutImg}
               alt=""
               sizes="(min-width: 1024px) 32rem, 20rem"
-              className="aspect-[2/3] bg-zinc-100 object-cover"
+              className="aspect-[2/3] rounded-lg bg-zinc-100 object-cover"
             />
           </div>
         </div>

@@ -1,4 +1,6 @@
 'use client'
+import Image from "next/image";
+
 
 import {
   EnvelopeIcon,
@@ -74,6 +76,16 @@ export default function Contact() {
               </div>
             </dl>
           </div>
+                 <figure className="mt-16 flex justify-center">
+                    <Image
+                      alt=""
+                      src="/images/IMG_1000.JPG"
+                      width={983}
+                      height={655}
+                      className="aspect-video rounded-lg bg-gray-50 object-cover mx-auto"
+                      style={{ maxWidth: "983px", width: "100%", height: "auto" }}
+                    />
+                  </figure>
         </div>
       
         <div className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
