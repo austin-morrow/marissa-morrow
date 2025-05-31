@@ -25,7 +25,6 @@ const Scroll = () => {
             width={700}
             height={600}
             className="object-cover inline-block mr-2"
-            style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 1"
             priority={true}
           />
@@ -34,7 +33,6 @@ const Scroll = () => {
             width={700}
             height={600}
             className="object-cover inline-block mr-2"
-            style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 2"
           />
           <Image
@@ -42,7 +40,6 @@ const Scroll = () => {
             width={700}
             height={600}
             className="object-cover inline-block mr-2"
-            style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 3"
           />
           <Image
@@ -50,7 +47,6 @@ const Scroll = () => {
             width={700}
             height={600}
             className="object-cover inline-block mr-2"
-            style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 4"
           />
           <Image
@@ -58,7 +54,6 @@ const Scroll = () => {
             width={700}
             height={600}
             className="object-cover inline-block mr-2"
-            style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 5"
           />
           <Image
@@ -66,7 +61,6 @@ const Scroll = () => {
             width={700}
             height={600}
             className="object-cover inline-block mr-2"
-            style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 6"
           />
           <Image
@@ -74,7 +68,6 @@ const Scroll = () => {
             width={700}
             height={600}
             className="object-cover inline-block mr-2"
-            style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 7"
           />
         </div>
@@ -106,7 +99,6 @@ const Scroll = () => {
           width={700}
           height={600}
           className="object-cover mb-2"
-          style={{ maxWidth: "700px", width: "100%", height: "auto" }}
           alt="Photo 1"
         />
         <Image
@@ -114,7 +106,6 @@ const Scroll = () => {
           width={700}
           height={600}
           className="object-cover mb-2"
-          style={{ maxWidth: "700px", width: "100%", height: "auto" }}
           alt="Photo 2"
         />
         <Image
@@ -122,7 +113,6 @@ const Scroll = () => {
           width={700}
           height={600}
           className="object-cover mb-2"
-          style={{ maxWidth: "700px", width: "100%", height: "auto" }}
           alt="Photo 3"
         />
         <Image
@@ -130,7 +120,6 @@ const Scroll = () => {
           width={700}
           height={600}
           className="object-cover mb-2"
-          style={{ maxWidth: "700px", width: "100%", height: "auto" }}
           alt="Photo 4"
         />
         <Image
@@ -138,7 +127,6 @@ const Scroll = () => {
           width={700}
           height={600}
           className="object-cover mb-2"
-          style={{ maxWidth: "700px", width: "100%", height: "auto" }}
           alt="Photo 5"
         />
         <Image
@@ -146,7 +134,6 @@ const Scroll = () => {
           width={700}
           height={600}
           className="object-cover mb-2"
-          style={{ maxWidth: "700px", width: "100%", height: "auto" }}
           alt="Photo 6"
         />
         <Image
@@ -154,7 +141,6 @@ const Scroll = () => {
           width={700}
           height={600}
           className="object-cover"
-          style={{ maxWidth: "700px", width: "100%", height: "auto" }}
           alt="Photo 7"
         />
       </div>

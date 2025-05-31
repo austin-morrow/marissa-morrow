@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import AboutImg from "../../../public/images/about.png";
 
 export default function About() {
