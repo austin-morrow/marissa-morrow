@@ -3,8 +3,9 @@ import AboutImg from "../../../public/images/about.png";
 
 export default function About() {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
-      <div className="mt-6 space-y-7 text-base text-zinc-600 mb-12">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 lg:mt-28">
+      <div className="mt-6 space-y-7 text-base text-zinc-600 mb-12 text-center
+">
         <p>
           Photography has been my muse since I was eight, starting with
           overexposed photos from a Barbie film camera in Yellowstone. Over the
@@ -61,7 +62,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="mt-6 space-y-7 text-base text-zinc-600 mb-12">
+      <div className="mt-6 space-y-7 text-base text-zinc-600 mb-12 text-center italic">
         <p>
           *BIPOC+ includes but is not limited to: African, Indigenous, Native,
           Latinx, Asian, Pacific Islander, Arab and Multiracial heritage.

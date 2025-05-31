@@ -47,7 +47,7 @@ export default function Pricing() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <figure className="mt-16 flex justify-center">
+        <figure className="lg:mt-28 flex justify-center">
           <Image
             alt=""
             src="/images/IMG_0122.jpg"
@@ -59,9 +59,6 @@ export default function Pricing() {
         </figure>
         <div className="bg-white px-6 pt-12 sm:pt-10 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <p className="text-base/7 font-semibold text-lime-900">
-            Accessible Solutions
-            </p>
             <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
               Pricing
             </h2>

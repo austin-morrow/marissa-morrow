@@ -27,14 +27,11 @@ const details = [
 
 export default function Details() {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div className="overflow-hidden bg-white lg:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base/7 font-semibold text-lime-900">
-                How It Works:
-              </h2>
               <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
                 Booking and Timeline
               </p>

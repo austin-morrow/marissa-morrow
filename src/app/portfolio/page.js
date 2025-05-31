@@ -10,13 +10,13 @@ export default function Portfolio() {
 
   return (
     <>
-      <div className="bg-white py-12 sm:py-16">
+      <div className="bg-white lg:py-8">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
               Creative Portraits
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 pb-8">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 pb-8">
               {[
                 [
                   "/images/portfolio/portraits/IMG_0417.jpg",
@@ -60,7 +60,7 @@ export default function Portfolio() {
             <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
               Family / Couples
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 pb-8">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 pb-8">
               {[
                 [
                   "/images/portfolio/couples/IMG_0895.jpg",
@@ -104,7 +104,7 @@ export default function Portfolio() {
             <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
               Micro Weddings
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 pb-8">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 pb-8">
               {[
                 [
                   "/images/portfolio/weddings/IMG_9790.jpg",
@@ -148,7 +148,7 @@ export default function Portfolio() {
             <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">
               Concerts / Band Promos
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 pb-8">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 pb-8">
               {[
                 [
                   "/images/portfolio/concerts/IMG_0492.jpg",

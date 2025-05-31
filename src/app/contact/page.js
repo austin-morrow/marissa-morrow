@@ -13,9 +13,9 @@ export default function Contact() {
   return (
     <div className="relative isolate bg-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-        <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+        <div className="relative px-6 pb-20 sm:pt-16 lg:static lg:px-8 lg:py-16">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-            <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+            <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
               Get in touch
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
@@ -88,7 +88,7 @@ export default function Contact() {
                   </figure>
         </div>
       
-        <div className="pb-24 pt-20 sm:pb-32 lg:py-48"
+        <div className="pb-24 pt-14 sm:pb-32 lg:py-16"
         >
     
       <MoxieForm />
