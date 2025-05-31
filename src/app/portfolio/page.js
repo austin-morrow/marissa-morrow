@@ -156,7 +156,7 @@ export default function Portfolio() {
                 ],
                 [
                   "/images/portfolio/concerts/IMG_0283.jpg",
-                  "/images/portfolio/concerts/IMG_9724.jpg",
+                  "/images/portfolio/concerts/IMG_9724.JPG",
                 ],
                 [
                   "/images/portfolio/concerts/IMG_4980.jpg",
