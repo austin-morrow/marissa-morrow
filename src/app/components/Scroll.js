@@ -27,6 +27,7 @@ const Scroll = () => {
             className="object-cover inline-block mr-2"
             style={{ maxWidth: "700px", width: "100%", height: "auto" }}
             alt="Photo 1"
+            priority={true}
           />
           <Image
             src="/images/scroll/IMG_0630.jpg"

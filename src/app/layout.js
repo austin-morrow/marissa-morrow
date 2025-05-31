@@ -6,8 +6,8 @@ import Footer from '@/app/components/Footer';
 const inter = Kaisei_Decol({  weight: '400', subsets: ["latin"] });
 
 export const metadata = {
-  title: "Marissa Morrow",
-  description: "Denver based photographer",
+  title: "Marissa Morrow | Stories in Light",
+  description: "Mindful, documentary-style photography by Marissa Morrow. Capturing emotion, story, and humanity—rooted in community and authenticity.",
 };
 
 export default function RootLayout({ children }) {
