@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 import Link from "next/link";
 import {
@@ -15,6 +16,7 @@ import {
   //PopoverPanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
 //import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 // const products = [
@@ -31,7 +33,7 @@ export default function Header() {
     <header className="bg-white font-serif">
       <nav
         aria-label="Global"
-        className="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 my-16"
+        className="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 my-24"
       >
         <div className="flex lg:hidden">
           <Link
@@ -54,13 +56,21 @@ export default function Header() {
           </button>
         </div>
         <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center">
-          <div className="text-2xl font-lighttracking-wide hidden lg:flex mb-8 mt-8">
+          <div className="text-2xl font-lighttracking-wide hidden lg:flex mb-8 mt-14">
             <Link
               href={{
                 pathname: "/",
               }}
             >
-              Marissa Morrow
+              <Image
+                alt=""
+                src="/images/marissalogo.png"
+                width={200}
+                height={64}
+                className="
+                object-cover mx-auto"
+                style={{ maxWidth: "200px", width: "150px", height: "auto" }}
+              />
             </Link>
           </div>
           <PopoverGroup className="hidden lg:flex lg:gap-x-12">
