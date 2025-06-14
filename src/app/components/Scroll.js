@@ -22,51 +22,51 @@ const Scroll = () => {
         <div className="flex">
           <Image
             src="/images/scroll/IMG_0283.jpg"
-            width={700}
-            height={600}
+            width={650}
+            height={550}
             className="object-cover inline-block mr-2"
             alt="Photo 1"
             priority={true}
           />
           <Image
             src="/images/scroll/IMG_0630.jpg"
-            width={700}
-            height={600}
+            width={650}
+            height={550}
             className="object-cover inline-block mr-2"
             alt="Photo 2"
           />
           <Image
             src="/images/scroll/IMG_7722.jpg"
-            width={700}
-            height={600}
+            width={650}
+            height={550}
             className="object-cover inline-block mr-2"
             alt="Photo 3"
           />
           <Image
             src="/images/scroll/IMG_9684.jpg"
-            width={700}
-            height={600}
+            width={650}
+            height={550}
             className="object-cover inline-block mr-2"
             alt="Photo 4"
           />
           <Image
             src="/images/scroll/IMG_9783.jpg"
-            width={700}
-            height={600}
+            width={650}
+            height={550}
             className="object-cover inline-block mr-2"
             alt="Photo 5"
           />
           <Image
             src="/images/scroll/IMG_9946.jpg"
-            width={700}
-            height={600}
+            width={650}
+            height={550}
             className="object-cover inline-block mr-2"
             alt="Photo 6"
           />
           <Image
             src="/images/scroll/IMG_9953.jpg"
-            width={700}
-            height={600}
+            width={650}
+            height={550}
             className="object-cover inline-block mr-2"
             alt="Photo 7"
           />
@@ -96,50 +96,50 @@ const Scroll = () => {
       <div className="flex flex-col md:hidden relative">
         <Image
           src="/images/scroll/IMG_0283.jpg"
-          width={700}
-          height={600}
+          width={650}
+          height={550}
           className="object-cover mb-2"
           alt="Photo 1"
         />
         <Image
           src="/images/scroll/IMG_0630.jpg"
-          width={700}
-          height={600}
+          width={650}
+          height={550}
           className="object-cover mb-2"
           alt="Photo 2"
         />
         <Image
           src="/images/scroll/IMG_7722.jpg"
-          width={700}
-          height={600}
+          width={650}
+          height={550}
           className="object-cover mb-2"
           alt="Photo 3"
         />
         <Image
           src="/images/scroll/IMG_9684.jpg"
-          width={700}
-          height={600}
+          width={650}
+          height={550}
           className="object-cover mb-2"
           alt="Photo 4"
         />
         <Image
           src="/images/scroll/IMG_9783.jpg"
-          width={700}
-          height={600}
+          width={650}
+          height={550}
           className="object-cover mb-2"
           alt="Photo 5"
         />
         <Image
           src="/images/scroll/IMG_9946.jpg"
-          width={700}
-          height={600}
+          width={650}
+          height={550}
           className="object-cover mb-2"
           alt="Photo 6"
         />
         <Image
           src="/images/scroll/IMG_9953.jpg"
-          width={700}
-          height={600}
+          width={650}
+          height={550}
           className="object-cover"
           alt="Photo 7"
         />
