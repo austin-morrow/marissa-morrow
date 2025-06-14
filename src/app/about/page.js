@@ -3,7 +3,7 @@ import AboutImg from "../../../public/images/about.png";
 
 export default function About() {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 lg:mt-28">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 lg:mt-36">
       <div className="mt-6 space-y-7 text-base text-zinc-600 mb-12 text-center
 ">
         <p>
