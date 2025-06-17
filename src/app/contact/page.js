@@ -11,9 +11,9 @@ import MoxieForm from '../components/MoxieForm';
 
 export default function Contact() {
   return (
-    <div className="relative isolate bg-white">
+    <div className="bg-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-        <div className="relative px-6 pb-20 sm:pt-16 lg:static lg:px-8 lg:py-16">
+        <div className="relative px-6 pb-20 sm:pt-16 lg:static lg:px-8 lg:pt-16">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
               Get in touch

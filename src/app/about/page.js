@@ -3,8 +3,8 @@ import AboutImg from "../../../public/images/about.png";
 
 export default function About() {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 lg:mt-36">
-      <div className="mt-8 space-y-7 text-base text-zinc-600 mb-12 text-center
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 lg:pt-16">
+      <div className="space-y-7 text-base text-zinc-600 mb-12 text-center
 ">
         <p>
           Photography has been my muse since I was eight, starting with

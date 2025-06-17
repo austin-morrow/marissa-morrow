@@ -10,7 +10,7 @@ export default function Portfolio() {
 
   return (
     <>
-      <div className="bg-white lg:py-12">
+      <div className="bg-white lg:pt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <h2 className="text-lg/8 font-semibold text-gray-900 pb-6">

@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/legacy/image";
 
 const details = [
@@ -50,7 +52,7 @@ export default function Details() {
 
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 <div className="relative pl-9">
-                  <dt className="inline text-gray-900">
+                  <div className="inline text-gray-900">
                     <dd
                       aria-hidden="true"
                       className="absolute left-1 size-5 text-lime-900"
@@ -66,12 +68,12 @@ export default function Details() {
                     <span className="italic">
                       *editing time varies by type of photoshoot.
                     </span>
-                  </dt>
+                  </div>
                 </div>
               </dl>
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 <div className="relative pl-9">
-                  <dt className="inline text-gray-900">
+                  <div className="inline text-gray-900">
                     <dd
                       aria-hidden="true"
                       className="absolute left-1 size-5 text-lime-900"
@@ -80,7 +82,7 @@ export default function Details() {
                     </dd>
                     Payment of your remaining balance upon receipt of your full
                     gallery via an invoice sent to you by Marissa Morrow Photo
-                  </dt>
+                  </div>
                 </div>
               </dl>
             </div>

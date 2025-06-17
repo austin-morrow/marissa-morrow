@@ -47,7 +47,7 @@ export default function Pricing() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <figure className="lg:mt-28 flex justify-center">
+        <figure className="lg:pt-16 flex justify-center">
           <Image
             alt=""
             src="/images/IMG_0122.jpg"
