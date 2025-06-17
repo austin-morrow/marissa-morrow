@@ -36,14 +36,21 @@ export default function Header() {
         className="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 my-24"
       >
         <div className="flex lg:hidden">
-          <Link
-            href={{
-              pathname: "/",
-            }}
-            className="-m-1.5 p-1.5"
-          >
-            <div className="text-xl font-light">Marissa Morrow</div>
-          </Link>
+            <Link
+              href={{
+                pathname: "/",
+              }}
+            >
+              <Image
+                alt=""
+                src="/images/marissalogo.png"
+                width={200}
+                height={64}
+                className="
+                object-cover mx-auto"
+                style={{ maxWidth: "200px", width: "150px", height: "auto" }}
+              />
+            </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -168,14 +175,25 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+                 <div>
+              <Link
+              href={{
+                pathname: "/",
+              }}
+            >
+              <Image
                 alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
+                src="/images/marissalogo.png"
+                width={190}
+                height={54}
+                className="
+                object-cover mx-auto"
+                 onClick={() => setMobileMenuOpen(false)}
+                style={{ maxWidth: "150px", width: "75px", height: "auto" }}
               />
-            </a>
+            </Link>
+           </div>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -186,7 +204,7 @@ export default function Header() {
             </button>
           </div>
           <div className="mt-6 flow-root font-serif">
-            <div className="-my-6 divide-y divide-gray-500/10">
+            <div>
               <div className="space-y-2 py-6">
                 {/* Eventually create seperate pages for each photo shoot type */}
                 {/* <Disclosure as="div" className="-mx-3">
@@ -214,6 +232,7 @@ export default function Header() {
                   href={{
                     pathname: "/",
                   }}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Home
@@ -222,6 +241,7 @@ export default function Header() {
                   href={{
                     pathname: "/portfolio",
                   }}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Portfolio
@@ -230,6 +250,7 @@ export default function Header() {
                   href={{
                     pathname: "/about",
                   }}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   About
@@ -238,6 +259,7 @@ export default function Header() {
                   href={{
                     pathname: "/details",
                   }}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Details
@@ -246,6 +268,7 @@ export default function Header() {
                   href={{
                     pathname: "/pricing",
                   }}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Pricing
@@ -254,6 +277,7 @@ export default function Header() {
                   href={{
                     pathname: "/contact",
                   }}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light tracking-wide text-gray-900 hover:bg-gray-50"
                 >
                   Contact
