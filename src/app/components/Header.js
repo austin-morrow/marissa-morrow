@@ -33,7 +33,7 @@ export default function Header() {
     <header className="bg-white font-serif">
       <nav
         aria-label="Global"
-        className="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 my-24"
+        className="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 my-8 lg:my-24"
       >
         <div className="flex lg:hidden">
             <Link
