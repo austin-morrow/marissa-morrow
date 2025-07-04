@@ -1658,6 +1658,18 @@ video {
 .top-full {
   top: 100%;
 }
+.left-\[-3rem\] {
+  left: -3rem;
+}
+.right-\[-3rem\] {
+  right: -3rem;
+}
+.left-4 {
+  left: 1rem;
+}
+.right-4 {
+  right: 1rem;
+}
 .isolate {
   isolation: isolate;
 }
@@ -1680,18 +1692,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-.my-14 {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
-}
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
 }
 .my-8 {
   margin-top: 2rem;
@@ -1785,6 +1785,9 @@ video {
 }
 .max-h-\[90vh\] {
   max-height: 90vh;
+}
+.max-h-\[80vh\] {
+  max-height: 80vh;
 }
 .min-h-\[500px\] {
   min-height: 500px;
@@ -1984,6 +1987,9 @@ video {
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
 }
+.object-contain {
+  object-fit: contain;
+}
 .object-cover {
   object-fit: cover;
 }
@@ -1998,6 +2004,9 @@ video {
 }
 .p-6 {
   padding: 1.5rem;
+}
+.p-2 {
+  padding: 0.5rem;
 }
 .px-2\.5 {
   padding-left: 0.625rem;
@@ -2026,6 +2035,10 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .pb-20 {
   padding-bottom: 5rem;
@@ -2217,6 +2230,11 @@ body {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.hover\:text-gray-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 .data-\[closed\]\:translate-y-1[data-closed] {
   --tw-translate-y: 0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2249,9 +2267,29 @@ body {
 
 @media (min-width: 640px) {
 
+  .sm\:left-\[-3rem\] {
+    left: -3rem;
+  }
+
+  .sm\:right-\[-3rem\] {
+    right: -3rem;
+  }
+
+  .sm\:left-8 {
+    left: 2rem;
+  }
+
+  .sm\:right-8 {
+    right: 2rem;
+  }
+
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .sm\:max-h-\[90vh\] {
+    max-height: 90vh;
   }
 
   .sm\:w-\[57rem\] {
@@ -2262,8 +2300,17 @@ body {
     max-width: 24rem;
   }
 
+  .sm\:max-w-4xl {
+    max-width: 56rem;
+  }
+
   .sm\:gap-y-20 {
     row-gap: 5rem;
+  }
+
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .sm\:pb-32 {
@@ -2343,6 +2390,14 @@ body {
 
   .lg\:static {
     position: static;
+  }
+
+  .lg\:left-6 {
+    left: 1.5rem;
+  }
+
+  .lg\:right-6 {
+    right: 1.5rem;
   }
 
   .lg\:order-first {
@@ -2460,6 +2515,11 @@ body {
 
   .lg\:pt-4 {
     padding-top: 1rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
