@@ -1,5 +1,5 @@
 import Image from "next/legacy/image";
-import AboutImg from "../../../public/images/about.png";
+import AboutImg from "../../../public/images/IMG_7030.JPG";
 
 export default function About() {
   return (
